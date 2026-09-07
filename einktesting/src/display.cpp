@@ -26,7 +26,7 @@ void displayInit() {
 	uint16_t x = ((display.width() - tbw) / 2) - tbx;
 	uint16_t y = display.height() - tbh;
 	display.setCursor(x, y);
-    display.print("Hello");
+    // display.print("Hello");
 
 
 	// Align to controller grid
@@ -35,7 +35,7 @@ void displayInit() {
 	uint16_t w_r = tbw + (x - x_r);
 	uint16_t h_r = tbh + (y - y_r);
 
-	display.displayWindow(x_r,y_r,w_r,h_r);
+	// display.displayWindow(x_r,y_r,w_r,h_r);
 
 
 
